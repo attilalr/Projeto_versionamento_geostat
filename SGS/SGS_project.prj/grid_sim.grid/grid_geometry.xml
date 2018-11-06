@@ -1,6 +1,6 @@
 <!DOCTYPE gridGeometry>
 <Grid type="Cgrid" name="grid_sim">
-<Geometry ny="300" dy="1" nz="1" ox="0.5" rotation_z_angle="0" dx="1" oy="0.5" nx="260" oz="0" dz="1"/>
+<Geometry oy="0.5" oz="0" ny="300" rotation_z_angle="0" nz="1" nx="260" dy="1" ox="0.5" dz="1" dx="1"/>
 <Properties>
 <GsTLGridProperty type="Continuous" name="NN_Cu" filepath="properties/property__NN_Cu.sgems"/>
 </Properties>
