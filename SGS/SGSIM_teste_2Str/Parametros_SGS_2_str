@@ -1,0 +1,35 @@
+<parameters>  <algorithm name="sgsim" /> 
+  <Grid_Name value="grid_sim" region=""  /> 
+  <Property_Name value="SGS_2_str" reuse_property="0" />  <Nb_Realizations  value="50" /> 
+  <Use_LVM  value="0"  /> 
+  <Max_Conditioning_Data  value="12" /> 
+  <Max_Conditioning_Simul_Data  value="12" /> 
+  <Search_Ellipsoid  value="85 30 1
+157.5 0 0" />
+  <AdvancedSearch  use_advanced_search="0"></AdvancedSearch>
+  <Assign_Hard_Data  value="1"  /> 
+  <Hard_Data  grid="Dataset_Walker"   property="CU(%)"   region=""  /> 
+  <Use_Target_Histogram  value="1"  /> 
+  <Export_nscore  value="0"  /> 
+  <Use_break_tie_index  value="1"  /> 
+  <Break_tie_index_property  value="CU(%)"  /> 
+  <nonParamCdf  ref_in_distribution ="0"  ref_on_file ="0" ref_on_grid ="1" break_ties_indices ="0" grid ="grid_sim" region ="" property ="NN_Cu" is_weight =  "0"><LTI_type  function ="No extrapolation"  extreme ="0"  omega ="3" />
+<UTI_type  function ="No extrapolation"  extreme ="0"  omega ="0.333" />
+</nonParamCdf>
+  <Covariance_input  structures_count="3" >
+  <Structure_1 type="Covariance">  <Two_point_model  contribution="0.33"  type="Nugget Covariance"   >
+  </Two_point_model>
+  </Structure_1>
+  <Structure_2 type="Covariance">  <Two_point_model  contribution="0.33"  type="Spherical Covariance"   >
+    <ranges range1="86"  range2="30"  range3="1"   />
+    <angles azimuth="157.5"  dip="0"  rake="0"   />
+  </Two_point_model>
+  </Structure_2>
+  <Structure_3 type="Covariance">  <Two_point_model  contribution="0.33"  type="Spherical Covariance"   >
+    <ranges range1="60"  range2="28"  range3="1"   />
+    <angles azimuth="157.5"  dip="0"  rake="0"   />
+  </Two_point_model>
+  </Structure_3>
+</Covariance_input>
+  <Simulation_seed type="increment" seed="717161" increment="2"/>  <Path type="multi-grid" n_multigrid="3"   ><Seed type="increment" seed="1117111" increment="2"/></Path>  <Nb_processors  value="-2"  />
+</parameters> 
