@@ -1,0 +1,55 @@
+<parameters>  <algorithm name="categorical_sisim" /> 
+  <Simulation_seed type="increment" seed="717161" increment="2"/>  <Path type="random"><Seed type="increment" seed="1117111" increment="2"/></Path>  <Nb_processors  value="-2"  />
+  <Grid_Name value="Grid_87.5_x_87.5" region="regiao_jura"  /> 
+  <Property_Name value="sim" reuse_property="0" />  <Nb_Realizations  value="5" /> 
+  <Hard_Data  grid="Jura_GTSIM"   property="Rock - categorical"   region=""  /> 
+  <Min_Conditioning_Data  value="1" /> 
+  <Max_Conditioning_Data  value="24" /> 
+  <Search_Ellipsoid  value="3000 3000 1
+0 0 0" />
+  <AdvancedSearch  use_advanced_search="0"></AdvancedSearch>
+  <Use_existing_category_coding  value="1"  /> 
+  <Non_conditional_cdef  value="Jura_GTSIM-Rock"  />
+  <kriging_type  type="Simple Kriging (SK)" >
+  <parameters means=" 0.17 0.39 0.18 0.024 0.13" />
+</kriging_type>
+  <Variogram  number_of_indicator_group="5"  >
+  <Indicator_group_1>  <Indicators value="Code 1"/> <Covariance_input structures_count="2"><Structure_1  type="Covariance" ><Two_point_model  contribution="0.04"  type="Spherical Covariance"   >
+    <ranges range1="650"  range2="100"  range3="1"   />
+    <angles azimuth="45"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_1><Structure_2  type="Covariance" ><Two_point_model  contribution="0.11"  type="Spherical Covariance"   >
+    <ranges range1="2600"  range2="800"  range3="1"   />
+    <angles azimuth="45"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_2></Covariance_input>  </Indicator_group_1>
+  <Indicator_group_2>  <Indicators value="Code 2"/> <Covariance_input structures_count="2"><Structure_1  type="Covariance" ><Two_point_model  contribution="0.144"  type="Spherical Covariance"   >
+    <ranges range1="400"  range2="400"  range3="1"   />
+    <angles azimuth="0"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_1><Structure_2  type="Covariance" ><Two_point_model  contribution="0.096"  type="Spherical Covariance"   >
+    <ranges range1="1650"  range2="1650"  range3="1"   />
+    <angles azimuth="0"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_2></Covariance_input>  </Indicator_group_2>
+  <Indicator_group_3>  <Indicators value="Code 3"/> <Covariance_input structures_count="1"><Structure_1  type="Covariance" ><Two_point_model  contribution="0.18"  type="Spherical Covariance"   >
+    <ranges range1="1300"  range2="400"  range3="1"   />
+    <angles azimuth="67.5"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_1></Covariance_input>  </Indicator_group_3>
+  <Indicator_group_4>  <Indicators value="Code 4"/> <Covariance_input structures_count="1"><Structure_1  type="Covariance" ><Two_point_model  contribution="0.02"  type="Spherical Covariance"   >
+    <ranges range1="600"  range2="600"  range3="1"   />
+    <angles azimuth="0"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_1></Covariance_input>  </Indicator_group_4>
+  <Indicator_group_5>  <Indicators value="Code 5"/> <Covariance_input structures_count="2"><Structure_1  type="Covariance" ><Two_point_model  contribution="0.052"  type="Spherical Covariance"   >
+    <ranges range1="500"  range2="300"  range3="1"   />
+    <angles azimuth="67.5"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_1><Structure_2  type="Covariance" ><Two_point_model  contribution="0.078"  type="Spherical Covariance"   >
+    <ranges range1="900"  range2="400"  range3="1"   />
+    <angles azimuth="67.5"  dip="0"  rake="0"   />
+  </Two_point_model>
+</Structure_2></Covariance_input>  </Indicator_group_5>
+</Variogram>
+</parameters> 
