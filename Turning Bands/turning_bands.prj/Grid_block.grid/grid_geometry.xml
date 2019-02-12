@@ -1,7 +1,30 @@
 <!DOCTYPE gridGeometry>
 <Grid name="Grid_block" type="Cgrid">
 <Geometry nz="1" dz="1" oz="0" dx="5" rotation_z_angle="0" ny="60" dy="5" oy="2.5" nx="52" ox="2.5"/>
-<Properties/>
+<Properties>
+<GsTLGridProperty parameters="&lt;parameters>&lt;algorithm name=&quot;Postsim&quot;/>&lt;Hard_Data value=&quot;Grid_block&quot; region=&quot;&quot;/>&lt;props value=&quot;tb__real0_block;tb__real1_block;tb__real2_block;tb__real3_block;tb__real4_block;tb__real5_block;tb__real6_block;tb__real7_block;tb__real8_block;tb__real9_block&quot; count=&quot;10&quot; filter=&quot;&quot;/>&lt;etype value=&quot;1&quot;/>&lt;etype_prop value=&quot;E-type&quot;/>&lt;cond_var value=&quot;1&quot;/>&lt;cond_var_prop value=&quot;Variance&quot;/>&lt;iqr value=&quot;0&quot;/>&lt;quantile value=&quot;0&quot;/>&lt;prob_below value=&quot;0&quot;/>&lt;prob_above value=&quot;0&quot;/>&lt;mean_above value=&quot;0&quot;/>&lt;mean_below value=&quot;0&quot;/>&lt;/parameters>" name="E-type" type="Continuous" filepath="properties/property__E-type.sgems"/>
+<GsTLGridProperty parameters="&lt;parameters>&lt;algorithm name=&quot;Postsim&quot;/>&lt;Hard_Data value=&quot;Grid_block&quot; region=&quot;&quot;/>&lt;props value=&quot;tb__real0_block;tb__real1_block;tb__real2_block;tb__real3_block;tb__real4_block;tb__real5_block;tb__real6_block;tb__real7_block;tb__real8_block;tb__real9_block&quot; count=&quot;10&quot; filter=&quot;&quot;/>&lt;etype value=&quot;1&quot;/>&lt;etype_prop value=&quot;E-type&quot;/>&lt;cond_var value=&quot;1&quot;/>&lt;cond_var_prop value=&quot;Variance&quot;/>&lt;iqr value=&quot;0&quot;/>&lt;quantile value=&quot;0&quot;/>&lt;prob_below value=&quot;0&quot;/>&lt;prob_above value=&quot;0&quot;/>&lt;mean_above value=&quot;0&quot;/>&lt;mean_below value=&quot;0&quot;/>&lt;/parameters>" name="Variance" type="Continuous" filepath="properties/property__Variance.sgems"/>
+<GsTLGridProperty name="tb__real0_block" type="Continuous" filepath="properties/property__tb__real0_block.sgems"/>
+<GsTLGridProperty name="tb__real0_block variance" type="Continuous" filepath="properties/property__tb__real0_block variance.sgems"/>
+<GsTLGridProperty name="tb__real1_block" type="Continuous" filepath="properties/property__tb__real1_block.sgems"/>
+<GsTLGridProperty name="tb__real1_block variance" type="Continuous" filepath="properties/property__tb__real1_block variance.sgems"/>
+<GsTLGridProperty name="tb__real2_block" type="Continuous" filepath="properties/property__tb__real2_block.sgems"/>
+<GsTLGridProperty name="tb__real2_block variance" type="Continuous" filepath="properties/property__tb__real2_block variance.sgems"/>
+<GsTLGridProperty name="tb__real3_block" type="Continuous" filepath="properties/property__tb__real3_block.sgems"/>
+<GsTLGridProperty name="tb__real3_block variance" type="Continuous" filepath="properties/property__tb__real3_block variance.sgems"/>
+<GsTLGridProperty name="tb__real4_block" type="Continuous" filepath="properties/property__tb__real4_block.sgems"/>
+<GsTLGridProperty name="tb__real4_block variance" type="Continuous" filepath="properties/property__tb__real4_block variance.sgems"/>
+<GsTLGridProperty name="tb__real5_block" type="Continuous" filepath="properties/property__tb__real5_block.sgems"/>
+<GsTLGridProperty name="tb__real5_block variance" type="Continuous" filepath="properties/property__tb__real5_block variance.sgems"/>
+<GsTLGridProperty name="tb__real6_block" type="Continuous" filepath="properties/property__tb__real6_block.sgems"/>
+<GsTLGridProperty name="tb__real6_block variance" type="Continuous" filepath="properties/property__tb__real6_block variance.sgems"/>
+<GsTLGridProperty name="tb__real7_block" type="Continuous" filepath="properties/property__tb__real7_block.sgems"/>
+<GsTLGridProperty name="tb__real7_block variance" type="Continuous" filepath="properties/property__tb__real7_block variance.sgems"/>
+<GsTLGridProperty name="tb__real8_block" type="Continuous" filepath="properties/property__tb__real8_block.sgems"/>
+<GsTLGridProperty name="tb__real8_block variance" type="Continuous" filepath="properties/property__tb__real8_block variance.sgems"/>
+<GsTLGridProperty name="tb__real9_block" type="Continuous" filepath="properties/property__tb__real9_block.sgems"/>
+<GsTLGridProperty name="tb__real9_block variance" type="Continuous" filepath="properties/property__tb__real9_block variance.sgems"/>
+</Properties>
 <Regions/>
 <PropertyGroups/>
 </Grid>
