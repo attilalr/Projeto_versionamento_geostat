@@ -1,0 +1,9 @@
+<!DOCTYPE gridGeometry>
+<Grid name="Walker_pointset" type="Point_set">
+<Geometry size="470"/>
+<Properties>
+<GsTLGridProperty name="CU(%)" type="Continuous" filepath="properties/property__CU(%).sgems"/>
+</Properties>
+<Regions/>
+<PropertyGroups/>
+</Grid>
