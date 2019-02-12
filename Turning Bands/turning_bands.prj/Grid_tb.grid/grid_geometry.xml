@@ -1,0 +1,21 @@
+<!DOCTYPE gridGeometry>
+<Grid name="Grid_tb" type="Cgrid">
+<Geometry nz="1" dz="1" oz="0" dx="1" rotation_z_angle="0" ny="300" dy="1" oy="0.5" nx="260" ox="0.5"/>
+<Properties>
+<GsTLGridProperty name="NN_Cu" type="Continuous" filepath="properties/property__NN_Cu.sgems"/>
+<GsTLGridProperty name="tb__real0" type="Continuous" filepath="properties/property__tb__real0.sgems"/>
+<GsTLGridProperty name="tb__real1" type="Continuous" filepath="properties/property__tb__real1.sgems"/>
+<GsTLGridProperty name="tb__real2" type="Continuous" filepath="properties/property__tb__real2.sgems"/>
+<GsTLGridProperty name="tb__real3" type="Continuous" filepath="properties/property__tb__real3.sgems"/>
+<GsTLGridProperty name="tb__real4" type="Continuous" filepath="properties/property__tb__real4.sgems"/>
+<GsTLGridProperty name="tb__real5" type="Continuous" filepath="properties/property__tb__real5.sgems"/>
+<GsTLGridProperty name="tb__real6" type="Continuous" filepath="properties/property__tb__real6.sgems"/>
+<GsTLGridProperty name="tb__real7" type="Continuous" filepath="properties/property__tb__real7.sgems"/>
+<GsTLGridProperty name="tb__real8" type="Continuous" filepath="properties/property__tb__real8.sgems"/>
+<GsTLGridProperty name="tb__real9" type="Continuous" filepath="properties/property__tb__real9.sgems"/>
+</Properties>
+<Regions/>
+<PropertyGroups>
+<Grid_property_group memberProperties="tb__real0;tb__real1;tb__real2;tb__real3;tb__real4;tb__real5;tb__real6;tb__real7;tb__real8;tb__real9" name="tb" type="Simulation"/>
+</PropertyGroups>
+</Grid>

@@ -3,6 +3,8 @@
 <Geometry size="470"/>
 <Properties>
 <GsTLGridProperty name="CU(%)" type="Continuous" filepath="properties/property__CU(%).sgems"/>
+<GsTLGridProperty name="__CU(%)transformed__" type="Continuous" filepath="properties/property____CU(%)transformed__.sgems"/>
+<GsTLGridProperty name="__CU(%)transformed___0" type="Continuous" filepath="properties/property____CU(%)transformed___0.sgems"/>
 </Properties>
 <Regions/>
 <PropertyGroups/>

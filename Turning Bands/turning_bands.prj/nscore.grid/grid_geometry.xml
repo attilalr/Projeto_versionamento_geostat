@@ -4,6 +4,7 @@
 <Properties>
 <GsTLGridProperty name="CU(%)" type="Continuous" filepath="properties/property__CU(%).sgems"/>
 <GsTLGridProperty name="Normal Score value" type="Continuous" filepath="properties/property__Normal Score value.sgems"/>
+<GsTLGridProperty name="__Normal Score valuetransformed__" type="Continuous" filepath="properties/property____Normal Score valuetransformed__.sgems"/>
 </Properties>
 <Regions/>
 <PropertyGroups/>
