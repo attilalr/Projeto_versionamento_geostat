@@ -1,0 +1,10 @@
+<!DOCTYPE gridGeometry>
+<Grid type="Point_set" name="Nscore">
+<Geometry size="470"/>
+<Properties>
+<GsTLGridProperty type="Continuous" filepath="properties/property__CU(%).sgems" name="CU(%)"/>
+<GsTLGridProperty type="Continuous" filepath="properties/property__Normal Score value.sgems" name="Normal Score value"/>
+</Properties>
+<Regions/>
+<PropertyGroups/>
+</Grid>
