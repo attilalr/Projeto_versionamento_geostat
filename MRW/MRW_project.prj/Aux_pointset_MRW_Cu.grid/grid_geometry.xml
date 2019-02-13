@@ -1,0 +1,58 @@
+<!DOCTYPE gridGeometry>
+<Grid type="Point_set" name="Aux_pointset_MRW_Cu">
+<Geometry size="5220"/>
+<Properties>
+<GsTLGridProperty filepath="properties/property__SGS_0.sgems" type="Continuous" name="SGS_0"/>
+<GsTLGridProperty filepath="properties/property__SGS_1.sgems" type="Continuous" name="SGS_1"/>
+<GsTLGridProperty filepath="properties/property__SGS_10.sgems" type="Continuous" name="SGS_10"/>
+<GsTLGridProperty filepath="properties/property__SGS_11.sgems" type="Continuous" name="SGS_11"/>
+<GsTLGridProperty filepath="properties/property__SGS_12.sgems" type="Continuous" name="SGS_12"/>
+<GsTLGridProperty filepath="properties/property__SGS_13.sgems" type="Continuous" name="SGS_13"/>
+<GsTLGridProperty filepath="properties/property__SGS_14.sgems" type="Continuous" name="SGS_14"/>
+<GsTLGridProperty filepath="properties/property__SGS_15.sgems" type="Continuous" name="SGS_15"/>
+<GsTLGridProperty filepath="properties/property__SGS_16.sgems" type="Continuous" name="SGS_16"/>
+<GsTLGridProperty filepath="properties/property__SGS_17.sgems" type="Continuous" name="SGS_17"/>
+<GsTLGridProperty filepath="properties/property__SGS_18.sgems" type="Continuous" name="SGS_18"/>
+<GsTLGridProperty filepath="properties/property__SGS_19.sgems" type="Continuous" name="SGS_19"/>
+<GsTLGridProperty filepath="properties/property__SGS_2.sgems" type="Continuous" name="SGS_2"/>
+<GsTLGridProperty filepath="properties/property__SGS_20.sgems" type="Continuous" name="SGS_20"/>
+<GsTLGridProperty filepath="properties/property__SGS_21.sgems" type="Continuous" name="SGS_21"/>
+<GsTLGridProperty filepath="properties/property__SGS_22.sgems" type="Continuous" name="SGS_22"/>
+<GsTLGridProperty filepath="properties/property__SGS_23.sgems" type="Continuous" name="SGS_23"/>
+<GsTLGridProperty filepath="properties/property__SGS_24.sgems" type="Continuous" name="SGS_24"/>
+<GsTLGridProperty filepath="properties/property__SGS_25.sgems" type="Continuous" name="SGS_25"/>
+<GsTLGridProperty filepath="properties/property__SGS_26.sgems" type="Continuous" name="SGS_26"/>
+<GsTLGridProperty filepath="properties/property__SGS_27.sgems" type="Continuous" name="SGS_27"/>
+<GsTLGridProperty filepath="properties/property__SGS_28.sgems" type="Continuous" name="SGS_28"/>
+<GsTLGridProperty filepath="properties/property__SGS_29.sgems" type="Continuous" name="SGS_29"/>
+<GsTLGridProperty filepath="properties/property__SGS_3.sgems" type="Continuous" name="SGS_3"/>
+<GsTLGridProperty filepath="properties/property__SGS_30.sgems" type="Continuous" name="SGS_30"/>
+<GsTLGridProperty filepath="properties/property__SGS_31.sgems" type="Continuous" name="SGS_31"/>
+<GsTLGridProperty filepath="properties/property__SGS_32.sgems" type="Continuous" name="SGS_32"/>
+<GsTLGridProperty filepath="properties/property__SGS_33.sgems" type="Continuous" name="SGS_33"/>
+<GsTLGridProperty filepath="properties/property__SGS_34.sgems" type="Continuous" name="SGS_34"/>
+<GsTLGridProperty filepath="properties/property__SGS_35.sgems" type="Continuous" name="SGS_35"/>
+<GsTLGridProperty filepath="properties/property__SGS_36.sgems" type="Continuous" name="SGS_36"/>
+<GsTLGridProperty filepath="properties/property__SGS_37.sgems" type="Continuous" name="SGS_37"/>
+<GsTLGridProperty filepath="properties/property__SGS_38.sgems" type="Continuous" name="SGS_38"/>
+<GsTLGridProperty filepath="properties/property__SGS_39.sgems" type="Continuous" name="SGS_39"/>
+<GsTLGridProperty filepath="properties/property__SGS_4.sgems" type="Continuous" name="SGS_4"/>
+<GsTLGridProperty filepath="properties/property__SGS_40.sgems" type="Continuous" name="SGS_40"/>
+<GsTLGridProperty filepath="properties/property__SGS_41.sgems" type="Continuous" name="SGS_41"/>
+<GsTLGridProperty filepath="properties/property__SGS_42.sgems" type="Continuous" name="SGS_42"/>
+<GsTLGridProperty filepath="properties/property__SGS_43.sgems" type="Continuous" name="SGS_43"/>
+<GsTLGridProperty filepath="properties/property__SGS_44.sgems" type="Continuous" name="SGS_44"/>
+<GsTLGridProperty filepath="properties/property__SGS_45.sgems" type="Continuous" name="SGS_45"/>
+<GsTLGridProperty filepath="properties/property__SGS_46.sgems" type="Continuous" name="SGS_46"/>
+<GsTLGridProperty filepath="properties/property__SGS_47.sgems" type="Continuous" name="SGS_47"/>
+<GsTLGridProperty filepath="properties/property__SGS_48.sgems" type="Continuous" name="SGS_48"/>
+<GsTLGridProperty filepath="properties/property__SGS_49.sgems" type="Continuous" name="SGS_49"/>
+<GsTLGridProperty filepath="properties/property__SGS_5.sgems" type="Continuous" name="SGS_5"/>
+<GsTLGridProperty filepath="properties/property__SGS_6.sgems" type="Continuous" name="SGS_6"/>
+<GsTLGridProperty filepath="properties/property__SGS_7.sgems" type="Continuous" name="SGS_7"/>
+<GsTLGridProperty filepath="properties/property__SGS_8.sgems" type="Continuous" name="SGS_8"/>
+<GsTLGridProperty filepath="properties/property__SGS_9.sgems" type="Continuous" name="SGS_9"/>
+</Properties>
+<Regions/>
+<PropertyGroups/>
+</Grid>

@@ -2,7 +2,7 @@
 <Grid type="Point_set" name="Walker_pointset">
 <Geometry size="470"/>
 <Properties>
-<GsTLGridProperty type="Continuous" filepath="properties/property__CU(%).sgems" name="CU(%)"/>
+<GsTLGridProperty filepath="properties/property__CU(%).sgems" type="Continuous" name="CU(%)"/>
 </Properties>
 <Regions/>
 <PropertyGroups/>

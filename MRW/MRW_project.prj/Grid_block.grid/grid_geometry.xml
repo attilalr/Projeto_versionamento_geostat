@@ -1,6 +1,6 @@
 <!DOCTYPE gridGeometry>
 <Grid type="Cgrid" name="Grid_block">
-<Geometry ny="60" dx="5" oz="0" dy="5" nx="52" oy="2.5" nz="1" dz="1" rotation_z_angle="0" ox="2.5"/>
+<Geometry oz="0" oy="2.5" dy="5" ox="2.5" dz="1" nx="52" nz="1" rotation_z_angle="0" ny="60" dx="5"/>
 <Properties/>
 <Regions/>
 <PropertyGroups/>
